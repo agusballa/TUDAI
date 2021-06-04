@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roma</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+        integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-mobile">
+            <a href="index.html">
+                <img class="img-logo" src="images/logo.jpg" alt="Logo">
+            </a>
+            <div id="btn-menu" class="menu-responsive"><i class="fas fa-bars"></i></div>
+        </div>
+        <nav>
+            <div class="menu">
+                <ul class="navigator">
+                    <li class="item-navigator"><a href="index.html">Home</a></li>
+                    <li class="item-navigator"><a href="paris.html">Paris</a></li>
+                    <li class="item-navigator"><a href="roma.html">Roma</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Roma</h1>
+
+        <div class="container-registration">
+            <article class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Excursión</th>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Horario</th>
+                            <th>Idioma</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table">
+                    </tbody>
+                </table>
+                <p class="reference-table">*Excursión <span class="free">gratuita</span> para menores de 13 años.</p>
+            </article>
+
+            <article class="form">
+                <h3 class="title-registration">Reserva de excursión</h3>
+                <form action="">
+                    <label class="subtitle-registration">Excursión: </label>
+                    <input id="input-excursion" class="item-registration" type="text">
+                    <label class="subtitle-registration">Nombre: </label>
+                    <input id="input-name" class="item-registration" type="text">
+                    <label class="subtitle-registration">Edad: </label>
+                    <input id="input-age" class="item-registration" type="number">
+                    <label class="subtitle-registration">Horario: </label>
+                    <input id="input-time" class="item-registration" type="number">
+                    <label class="subtitle-registration">Idioma: </label>
+                    <input id="input-language" class="item-registration" type="text">
+                </form>
+                <div class="container-buttons">
+                    <button id="btn-add1" class="buttons">Agregar</button>
+                    <button id="btn-add3" class="buttons">Agregar x3</button>
+                    <button id="btn-delete" class="buttons">Borrar</button>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="container-excursions">
+            <article class="excursions">
+                <h2 class="title-excursions">Visita guiada por el Vaticano</h2>
+                <img class="img-excursions" src="images/vaticano.jpg" alt="Vaticano">
+                <p class="text-excursions">En esta visita guiada conoceréis los Museos Vaticanos, la Capilla Sixtina
+                    y la Basílica de San
+                    Pedro. Como ventaja adicional, no tendréis que esperar las interminables colas de los Museos
+                    Vaticanos.
+                </p>
+            </article>
+
+            <article class="excursions">
+                <h2 class="title-excursions">Coliseo, Foro y Palatino</h2>
+                <img class="img-excursions" src="images/coliseo.jpg" alt="Coliseo">
+                <p class="text-excursions">El Coliseo, el Foro y el Palatino son los grandes vestigios de la Roma
+                    imperial. Conócelos con
+                    este tour que también incluye una visita por la arena de los gladiadores del Coliseo.
+                </p>
+            </article>
+        </div>
+
+    </section>
+
+    <footer>
+        <h4 class="title-footer">Buscanos en nuestras redes</h4>
+        <div class="networks">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="item-networks" src="images/instagram.jpg" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/?lang=es" target="_blank">
+                <img class="item-networks" src="images/twitter.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="item-networks" src="images/facebook.jpg" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/menuResponsive.js"></script>
+    <script type="text/javascript" src="js/table.js"></script>
+
+</body>
+
+</html>
