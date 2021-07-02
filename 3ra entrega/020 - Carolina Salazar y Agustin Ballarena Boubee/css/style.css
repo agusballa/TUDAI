@@ -1,0 +1,612 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*--------------------------------------------------ENCABEZADO-------------------------------------------------*/
+
+.header-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    padding: 1%;
+    align-items: center;
+}
+
+.header-mobile, .item-navigator:hover, footer {
+    background-color: #00669f;
+}
+
+.img-logo {
+    height: 65px;
+    margin-left: 7%;
+    border-radius: 30px;
+    border: 3px solid #001d2d;
+}
+
+.menu-responsive {
+    margin-right: 7%;
+    font-size: 180%;
+}
+
+.title-cities, .title-form, #result, th, .free {
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+}
+
+.menu, .container-form, th, .excursions {
+    background-color: #062f5b;
+}
+
+.navigator {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: none;
+    flex-direction: column;
+}
+
+.show {
+    display: flex;
+}
+
+.item-navigator {
+    padding: 1% 2%;
+}
+
+.item-navigator a {
+    text-decoration: none;
+}
+
+.item-navigator a, h1, .title-form, .subtitle-form, .item-form, .text-area,.menu-responsive, #result,
+.title-footer, th, .highlighted, .title-excursions, .text-excursions  {
+    color: white;
+}
+
+/*------------------------------------------------------BODY-------------------------------------------------------*/
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0%;
+}
+
+h1 {
+    background-color: #001d2d;
+    font-size: 160%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*--------------------------------------------------CONTENIDO INDEX------------------------------------------------*/
+
+.title-cities {
+    font-size: 135%;
+    margin: 2%;
+}
+
+
+h1, .title-cities, .title-form, .title-footer, .title-footer, .title-attractions, th, td,
+.title-form-roma, .container-buttons, .title-excursions, .filters {
+    text-align: center;
+}
+
+.cities {
+    width: 70%;
+    border-radius: 20px;
+    padding: 2% 4%;
+    border: 1px solid #ccc;
+    margin: 5% 10%;
+}
+
+.cities, .attraction, td {
+    background-color:#d1d6db;
+    box-shadow: 2px 2px 6px #ccc;
+}
+
+.text-cities {
+    font-size:90%;
+}
+
+.text-cities, .text-attractions, .text-excursions {
+    text-align: justify;
+}
+
+.img-cities {
+    width: 80%;
+    height: 180px;
+    height: 200%;
+    margin: 3% 10%;
+}
+
+/*------------------------------------------------FORMULARIO INDEX-------------------------------------------------*/
+
+.container-form {
+    height: 635px;
+    margin: 5% 10%;
+    padding: 2% 4%;
+    width: 70%;
+}
+
+.title-form {
+    margin: 3% 0%;
+    font-size: 115%;
+}
+
+.subtitle-form {
+    margin: 2% 0%;
+    font-size: 85%;
+}
+
+.title-checkbox {
+    margin: 1% 0%;
+    font-size: 90%;
+}
+
+.title-checkbox, .title-captcha {
+    font-weight: normal;
+}
+
+.item-form {
+    margin: 3%;
+    font-size: 84%;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------------------------------------CAPTCHA------------------------------------------------------*/
+
+.title-captcha {
+    margin: 2% 0px;
+    font-size: 90%;
+}
+
+#display-captcha {
+    font-size: 120%;
+    margin: 2% 11%;
+}
+
+#result{
+    font-size: 120%;
+    margin: 3% 0% 0% 2%;
+}
+
+#result, .highlighted, .free, .title-form-roma {
+    font-weight: bold;
+}
+
+/*--------------------------------------------------PIE DE PAGINA---------------------------------------------------*/
+
+footer {
+    border-top: 5px solid #001d2d;
+    padding: 0% 0%;
+}
+
+.title-footer {
+    margin: 0px;
+    font-style: italic;
+    font-size: 90%;
+}
+
+.networks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item-networks {
+    height: 25px;
+    width: 25px;
+    margin: 4px;
+}
+
+/*----------------------------------------------------CONTENIDO PARIS-----------------------------------------------*/
+
+.container-paris {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*-----------------------------------------------------LISTA PARIS--------------------------------------------------*/
+
+.list {
+    display: none;
+}
+
+/*--------------------------------------------------ATRACCIONES PARIS-----------------------------------------------*/
+
+.container-attractions {
+    width: 90%;
+    margin: 0% 3%;
+}
+
+.title-attractions {
+    margin-top: 10%;
+    font-size: 120%;
+}
+
+.container-img {
+    width: 40%;
+}
+
+.img-attractions {
+    width: 80%;
+    height: 60%;
+    padding: 5% 9%;
+}
+
+.container-text {
+    width: 55%;
+}
+
+.text-attractions {
+    padding: 2%;
+    margin: 0%;
+    font-size: 80%;
+}
+
+.attraction {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 0% 3% 5% 3%;
+    padding: 1%;
+}
+
+/*-------------------------------------------------------CONTENIDO ROMA----------------------------------------------*/
+
+.container-table-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---------------------------------------------------------TABLA ROMA------------------------------------------------*/
+
+.table {
+    width: 90%;
+    margin: 5% 0%;
+}
+
+th {
+    font-size: 80%;
+    padding: 0% 1%;
+    width: 10%;
+}
+
+td {
+    border: 2px solid #062f5b;
+    font-size: 80%;
+    padding: 1%;
+}
+
+/*----------------------------------------------FORMULARIOS ROMA------------------------------------------------*/
+
+.forms {
+    width: 60%;
+    margin: 5% 0%;
+}
+
+.form {
+    border: 2px solid #062f5b;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.title-form-roma {
+    margin: 1%;
+}
+
+.subtitle-form-roma {
+    font-size: 80%;
+    margin-left: 2%;
+}
+
+.item-form-roma {
+    margin: 1%;
+}
+
+.buttons {
+    margin: 1%;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#btn-filter {
+    margin-left: 4%;
+}
+
+/*-------------------------------------------------EXCURSIONES ROMA---------------------------------------------*/
+
+.container-excursions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.excursions{
+    width: 70%;
+    border-radius: 6%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.title-excursions {
+    margin: 2%;
+    font-size: 120%;
+}
+
+.text-excursions {
+    padding: 1% 3%;
+    font-size: 90%;
+}
+
+.img-excursions{
+    margin: 1% 10%;
+    width: 80%;
+    height: 170px;
+}
+
+/* ------------------------------------------------------DESKTOP---------------------------------------------------*/
+
+@media screen and (min-width: 700px){
+
+    /*-------------------ENCABEZADO---------------------*/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        height: 120px;
+        background-color: #00669f;
+    }
+
+    .header-mobile {
+        padding: 0%;
+    }
+
+    .img-logo {
+        height: 70px;
+        border: 4px solid #001d2d;
+        margin-left: 15%;
+    }
+
+    .img-logo:hover{
+        height: 75px;
+    }
+
+    .menu-responsive {
+        display: none;
+    }
+
+    .menu, .item-navigator:hover {
+        background-color: transparent;
+    }
+
+    .navigator {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 350px;
+        border-bottom: 8px solid #062f5b;
+        padding: 1% 2%; 
+        margin-right: 10%;
+        list-style: none;
+        background-color: #001d2d;
+    }
+
+    .item-navigator a {
+        font-size: 100%;
+        padding: 5%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .item-navigator a:hover {
+        font-size: 110%;
+    }
+
+    /*---------------CONTENIDO INDEX--------------------*/
+
+    .container-index {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        padding: 3% 0px;
+    }
+
+    .cities {
+        width: 28%;
+        padding: 1% 2%;
+        margin: 1% 1%;
+    }
+
+    .img-cities {
+        width: 99%;
+        height: 225px;
+        margin: 0%;
+    }
+
+    /*---------------FORMULARIO INDEX-------------------*/
+
+    .container-form {
+        height: auto;
+        margin: 1% 1%;
+        padding: 1%;
+        border-radius: 60px;
+        width: 20%;
+        line-height: 1.2;
+    }
+
+    /*-------------------CAPTCHA------------------------*/
+
+    #display-captcha {
+        margin-left: 20%;
+    }
+
+    /*--------------------PIE DE PAGINA----------------------*/
+
+
+
+    .item-networks:hover {
+        width: 28px;
+        height: 28px;
+    }
+
+    /*-------------------CONTENIDO PARIS---------------------*/
+
+    .container-paris {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    /*----------------------LISTA PARIS----------------------*/
+
+    .container-list {
+        width: 22%;
+        padding: 1%;
+        margin-top: 5%;
+    }
+
+    .list {
+        display: block;
+        margin-left: 20%;
+    }
+
+    .title-list {
+        color: #062f5b;
+        text-align: center;
+    }
+
+    .item-list {
+        list-style-type: square;
+        padding: 6% 3%;
+        font-size: 19px;
+    }
+
+    /*------------------ATRACCIONES PARIS--------------------*/
+
+    .container-attractions {
+        width: 72%;
+        margin-top: 1%;
+    }
+
+    .title-attractions {
+        margin: 1% 2%;
+    }
+
+    .img-attractions {
+        width: 85%;
+        height: 210px;
+        padding: 3% 6%;
+    }
+ 
+    .container-text {
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    .text-attractions {
+        font-size: 90%;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    .attraction {
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    /*----------------------TABLA ROMA---------------------*/
+
+    .table {
+        width: 60%;
+        /* margin: 5% 0%; */
+    }
+
+    .container-table-forms{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    th {
+        padding: 2% 1%;
+        font-size: 100%;
+    }
+
+    td {
+        padding: 1% 1%;
+        font-size: 85%;
+    }
+
+    /*--------------------FORMULARIO ROMA-------------------*/
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        margin: 5% 0% 3% 0%;
+    }
+
+    .form {
+        width: 70%;
+        margin-bottom: 4%;
+    }
+
+    .item-form-roma {
+        margin: 2%;
+    }
+
+    .buttons {
+        margin: 2%;
+        background-color: #d1d6db;
+    }
+
+    .delete-record, .edit-record {
+        margin: 1%;
+    }
+
+    /*-----------------EXCURSIONES ROMA-------------------*/
+
+    .container-excursions{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .excursions{
+        width: 35%;
+        padding: 1%;
+    }
+
+    .img-excursions{
+        width: 80%;
+        height: 220px;
+    }
+
+}    
